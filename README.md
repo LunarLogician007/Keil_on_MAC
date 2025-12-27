@@ -118,3 +118,37 @@ brew install --cask coolterm
 <img width="812" height="697" alt="image" src="https://github.com/user-attachments/assets/88817e97-f031-4201-9eaa-da378ac06c18" />
 ---
 
+
+Here is the updated **README.md** incorporating a Troubleshooting section. This addresses the most common permission and hardware detection errors students encounter on macOS (especially M1/M2/M3 chips).
+
+---
+## 6. Troubleshooting
+
+If you encounter issues during installation or flashing, consult the solutions below.
+
+### 🛑 "App cannot be opened because the developer cannot be verified"
+
+macOS Gatekeeper may block Wine or CoolTerm initially.
+
+1. Go to **System Settings** → **Privacy & Security**.
+2. Scroll down to the **Security** section.
+3. You will see a message saying the app was blocked. Click **Open Anyway**.
+4. Alternatively, right-click the app in Finder and select **Open**.
+
+### 🔌 `dfu-programmer: no device present`
+
+This error means the computer cannot see the microcontroller.
+
+1. Ensure the board is in **Bootloader Mode**:
+* Hold down the **boot** button.
+* Press and release the **RESET** button.
+* Release the **boot** button.
+
+
+2. Run the command again.
+
+
+
+---
+
+Would you like me to include a sample **C code snippet** (like a "Hello World" or LED blink) so students can immediately test if their toolchain is working?

@@ -4,7 +4,7 @@ This guide walks you through installing Keil µVision on macOS using Wine, along
 
 
 
-## Step 1: Install Homebrew
+## Step 1: Install Homebrew (package manager for MacOS)
 
 Homebrew is a package manager for macOS that simplifies software installation.
 

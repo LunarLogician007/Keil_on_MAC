@@ -126,7 +126,7 @@ Here is the updated **README.md** incorporating a Troubleshooting section. This 
 
 If you encounter issues during installation or flashing, consult the solutions below.
 
-### 🛑 "App cannot be opened because the developer cannot be verified"
+#### 🛑 "App cannot be opened because the developer cannot be verified"
 
 macOS Gatekeeper may block Wine or CoolTerm initially.
 
@@ -135,7 +135,7 @@ macOS Gatekeeper may block Wine or CoolTerm initially.
 3. You will see a message saying the app was blocked. Click **Open Anyway**.
 4. Alternatively, right-click the app in Finder and select **Open**.
 
-### 🔌 `dfu-programmer: no device present`
+#### 🔌 `dfu-programmer: no device present`
 
 This error means the computer cannot see the microcontroller.
 
@@ -151,4 +151,3 @@ This error means the computer cannot see the microcontroller.
 
 ---
 
-Would you like me to include a sample **C code snippet** (like a "Hello World" or LED blink) so students can immediately test if their toolchain is working?

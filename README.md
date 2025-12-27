@@ -2,11 +2,7 @@
 
 This guide walks you through installing Keil µVision on macOS using Wine, along with the necessary tools for the lab.
 
-## Prerequisites
 
-- macOS (10.13 or later recommended)
-- Administrator access
-- Active internet connection
 
 ## Step 1: Install Homebrew
 

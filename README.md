@@ -52,6 +52,22 @@ brew install dfu-programmer
 ```bash
 dfu-programmer --version
 ```
+3. Using DFU Programmer
+
+Erase flash: Run the following command:
+
+```bash
+sudo dfu-programmer at89c5131 erase
+```
+
+
+Program flash: Run the following command:
+```bash
+sudo dfu-programmer at89c5131 flash <hex_file.hex>
+```
+
+Make sure you are in the directory where your hex file is present when you run this command.
+Note: When typing your password with sudo, it won't be displayed on screen, but the system accepts it.
 
 ## Step 5: Install Prolific PL2303 Serial Driver
 

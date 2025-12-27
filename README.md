@@ -100,8 +100,8 @@ To enable UART communication between the microcontroller and your Mac, you must 
 1. Open the **App Store**.
 2. Search for **"Prolific PL2303 Serial"**.
 3. Install the application shown below:
+ <img width="1292" height="836" alt="image" src="https://github.com/user-attachments/assets/e2e8a053-281c-4b67-9595-a0bbc3367d1f" />
 
-<img width="800" alt="Prolific Driver App Store" src="(https://github.com/user-attachments/assets/e2e8a053-281c-4b67-9595-a0bbc3367d1f)" />
 
 ### B. Install CoolTerm
 
@@ -115,8 +115,6 @@ brew install --cask coolterm
 
 
 2. Once installed, open the application to verify.
-
-<img width="600" alt="CoolTerm Interface" src="(https://github.com/user-attachments/assets/88817e97-f031-4201-9eaa-da378ac06c18)" />
-
+<img width="812" height="697" alt="image" src="https://github.com/user-attachments/assets/88817e97-f031-4201-9eaa-da378ac06c18" />
 ---
 

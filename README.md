@@ -1,6 +1,6 @@
 # Keil Setup Installation Guide for macOS
 
-This guide walks you through installing Keil µVision on macOS using Wine/CrossOver, along with the necessary tools for embedded development.
+This guide walks you through installing Keil µVision on macOS using Wine, along with the necessary tools for the lab.
 
 ## Prerequisites
 
